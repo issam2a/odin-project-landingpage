@@ -28,3 +28,6 @@ a{
 ul {
     display: flex;
 }
+.Logo{
+    font-weight: 900;
+}
