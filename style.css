@@ -1,0 +1,17 @@
+header{
+    background-color: #1F2937;
+
+}
+.herotext{
+    font-family: roboto , 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.herodiscreption,
+.headerlogolinks{
+    font-size: 18px;
+    font-family: roboto , 'Courier New', Courier, monospace;
+    color: #E5E7EB;
+}
