@@ -1,35 +1,102 @@
-header{
+.part-one header{
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 6px 100px;
+    
 
 }
 ul {
+    display: flex;
     list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+   
+    
+    
 }
+
 
 a{
     text-decoration: none;
     color: #E5E7EB;
+   
 }
-.hero-text{
+.part-one{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    
+}
+
+.Hero .hero-text {
+    max-width: 400px;
     font-family: roboto , 'Courier New', Courier, monospace;
     font-size: 48px;
     font-weight: 1000;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+
+    
+}
+.Hero .hero-description {
+    max-width: 400px;
+    margin: 0;
+    padding: 0;
+
 }
 
-.hero-description,
+
+.Hero .hero-description,
 .header-logo-links{
     font-size: 18px;
     font-family: roboto , 'Courier New', Courier, monospace;
     color: #E5E7EB;
 }
 
-.header-logo-links,
-ul {
+.header-logo-links {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 .Logo{
+    font-size: 24px;
+    font-weight: 950;
+    flex: 1 0 auto;
+}
+img {
+    min-width: 300px;
+    max-height: 300px;
+    flex: 1;
+    width: 100%;
+}
+.Hero{
+    display: flex;
+    gap: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    
+    
+}
+.btn button{
+    background-color: #3382f6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    padding: 6px 16px;
     font-weight: 900;
 }
+.Hero .right-side{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.image{
+    display: flex;
+}
+
